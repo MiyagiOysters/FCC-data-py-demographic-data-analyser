@@ -1,8 +1,5 @@
 import pandas as pd
 
-def main():
-    calculate_demographic_data()
-
 
 def calculate_demographic_data(print_data=True):
     # Read data from file
@@ -83,6 +80,3 @@ def calculate_demographic_data(print_data=True):
         highest_earning_country_percentage,
         'top_IN_occupation': top_IN_occupation
     }
-
-
-main()
